@@ -47,4 +47,11 @@ def f2(l):
         return x * 2
     return [get_mult(i) for i in l]
 
+
+
 print(f2(l))
+
+"""
+homeWork
+
+"""

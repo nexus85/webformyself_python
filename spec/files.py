@@ -44,3 +44,12 @@
 #     #     print(row)
 
 
+import os
+# print(os.getcwd())
+# print(os.path.exists('data.csv'))
+# print(os.path.exists('data1.csv'))
+# print(os.listdir())
+# print(os.listdir('/'))
+# print(dir(os))
+# # os.rename('demo1.py','d.py')
+# print(os.path.getmtime('test.txt'))

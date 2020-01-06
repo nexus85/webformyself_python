@@ -81,24 +81,24 @@
 #     print('Равно')
 
 
-import random
-
-num = random.randrange(1, 11)
-
-while True:
-    # test = answer.replace('.','',1)
-    answer = input('введите число: ')
-    if not answer.isdigit():
-            # print(answer)
-        print('Надо ввесит число')
-    else:
-        answer = int(answer)
-        if answer > num:
-            print('Меньше')
-        elif answer < num:
-            print('Больше')
-        else:
-            print('Угадали')
-            break
-
-
+# import random
+#
+# num = random.randrange(1, 11)
+#
+# while True:
+#     # test = answer.replace('.','',1)
+#     answer = input('введите число: ')
+#     if not answer.isdigit():
+#             # print(answer)
+#         print('Надо ввесит число')
+#     else:
+#         answer = int(answer)
+#         if answer > num:
+#             print('Меньше')
+#         elif answer < num:
+#             print('Больше')
+#         else:
+#             print('Угадали')
+#             break
+#
+#

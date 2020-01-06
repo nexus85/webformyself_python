@@ -136,3 +136,11 @@
 #
 # a = spec.funcs.fn()
 # print(a)
+
+
+# import lib.geos
+#
+# a = lib.geos.area_of_disk(10)
+# print(a)
+
+

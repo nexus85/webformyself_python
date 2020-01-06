@@ -110,14 +110,29 @@
 # print(k)
 
 # проверка значения
-hello = {
-    'ru': 'Добрый день',
-    'en': 'Good day',
-    'de': 'Guten tag',
-    'dk': 'God dag',
-    'default': 'Unknow language'
-}
-s = input('Введите код: ')
-greet = hello.get(s, hello['default'])
-print(greet)
+# hello = {
+#     'ru': 'Добрый день',
+#     'en': 'Good day',
+#     'de': 'Guten tag',
+#     'dk': 'God dag',
+#     'default': 'Unknow language'
+# }
+# s = input('Введите код: ')
+# greet = hello.get(s, hello['default'])
+# print(greet)
+#
 
+# import random
+# import math
+# # from math import cos, sin  #Иморт только определенных функйий
+# from math import cos as math_cos #Импорт
+# dir(random)
+
+# print(cos(23))
+
+# print(math.cos(2))
+#
+# import spec
+#
+# a = spec.funcs.fn()
+# print(a)

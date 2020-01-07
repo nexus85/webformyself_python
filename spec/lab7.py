@@ -1,25 +1,18 @@
 
 
 def read_file(file):
+    # try:
+        with open(file, 'r', encoding='utf-8') as f:
+            count = f.readline()
+            list1 = []
+            for i in f.readlines():
+                list1.append(i.strip())
+            if int(count)!= len(list1):
+                raise Exception(f'Число строк больше заданного, в файле указанно {int(count)}, а в действительности {len(list1)}')
+        return count, list1
+    # except:
+    #     print()
 
-    with open(file, 'r', encoding='utf-8') as f:
-        count = f.readline()
-        list1 = []
-        for i in f.readlines():
-            list1.append(i.strip())
-        # lines = f.readlines()
-        # print(f)
-        # print(count)
-        # for i in range(int(count)):
-        #     if i == 0:
-        #         continue
-        #     else:
-        #         list1.append(f.readline, i)
-        # print(lines)
-    return count, list1
-
-# def save_file():
-#     pass
 try:
     x, y = read_file('lab7')
 except Exception as e:
@@ -27,8 +20,10 @@ except Exception as e:
 except:
     print('Ошибка какая то')
 else:
-    print(x)
-    print(y)
+    print(f"Число строк заданно в файле {int(x)}, а размер файла {len(y)}")
+    print(f'В файле: ', end=' ')
+    for i in range(len(y)):
+        print(y[i], sep=',', end=', ')
 
 
 
